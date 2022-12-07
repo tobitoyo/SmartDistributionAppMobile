@@ -1,0 +1,45 @@
+.input-label {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: .8rem;
+}
+
+.input-div {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  color: #696969;
+  background-color: #FFF;
+  padding: .5rem 1rem;
+  /* padding: 1rem 1.6rem; */
+  border: .1rem solid #E5E5E5;
+  border-radius: .6rem;
+  margin-bottom: 2.4rem;
+}
+
+.password{
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  color: #696969;
+  background-color: #FFF;
+  padding: .5rem 1rem;
+  border: .1rem solid #E5E5E5;
+  border-radius: .6rem;
+  margin-bottom: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input{
+  border: none;
+  padding: .5rem 0;
+  width: 100%;
+}
+
+.eye{
+  padding: .5rem;
+}
