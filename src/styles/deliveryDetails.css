@@ -1,0 +1,160 @@
+
+.delivery-detail-div{
+  position: absolute;
+  top: 0rem;
+  left: -1.6rem;
+  background-color: white;
+  padding-left: 3.2rem;
+  padding-right: 1.6rem;
+}
+
+.track-num-date-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.4rem;
+}
+
+.track-num-date{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05em;
+  color: #575757;
+  margin-bottom: .8rem;
+}
+
+.details{
+  padding: .8rem;
+}
+
+.detail-heading{
+  font-weight: 700;
+  font-size: 1.0rem;
+  line-height: 1.2rem;
+  letter-spacing: 0.05em;
+  color: #575757;
+  margin: .8rem 0 2.4rem;
+}
+
+.detail-subhead {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  color: #575757;
+  margin-bottom: .8rem;
+}
+
+.detail-paragraph{
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  color: #1D1D1D; 
+  margin-bottom: 2.4rem; 
+}
+
+.detail-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+}
+
+
+.three-dots-option{
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.05em;
+  color: #1D1D1D;
+  background: #fff;
+  box-shadow: .0rem .2rem .2rem rgba(0, 0, 0, 0.25);
+  border-radius: .4rem;
+  padding: .8rem;
+  display: inline-block;
+  position: absolute;
+  top: 9rem;
+  right: 1.6rem;
+}
+
+.three-dots-item {
+  padding: 1rem .5rem;
+  cursor: pointer;
+}
+
+.three-dots-item:hover {
+  color: blue;
+}
+
+
+
+/* Package Transfer */
+
+.package-transfer-div{
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  background: #fff;
+  padding: 1.6rem;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.package-transfer-subhead {
+  margin-bottom: 3.2rem;
+}
+
+.error{
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  color: #B00909;
+}
+
+/* Completed Delivery */
+
+.success-head{
+  text-align: center;
+  border-bottom: .1rem solid #E5E5E5;
+  padding-bottom: 1.3rem;
+}
+
+.success-img{
+  margin-bottom: 1.6rem;
+}
+
+.track-num-date-time{
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05em;
+  color: #575757;
+  margin-bottom: .8rem;
+}
+
+.request-stat-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.request-stat{
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05em;
+}
+
+.request-stat-background {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.05em;
+  background-color: #85E0A3;
+  padding: .8rem;
+  border-radius: .8rem;
+}
+
